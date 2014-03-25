@@ -28,6 +28,14 @@ The user can also add to the system files `keywords.txt` and `verbs.txt` to allo
 
 Then follow the program's prompts.
 
+###Testing
+
+Use these commands to run the test cases:
+
+`javac -g Tester.java`
+
+`java Tester`
+
 ###Scalability
 
 The time it takes for the program to execute and generate an output is displayed in the console after the end of execution. 

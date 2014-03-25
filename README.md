@@ -44,4 +44,4 @@ Reading from files and writing to files is essentially done in constant time, so
 
 Checking if a keyword is contained in a string may be one place that costs time because we have to walk through the whole string which can be done in linear time. The program iterates through all the lines in the input text and for each line check if a keyword is contained. This results in a worst case runtime of approximately O(n^2) where n is the size of the input document.
 
-For a large document size, the run time is enormous but it can be optimized if the program was run in parallel. Since the program is input dependent, we can break up the input into smaller pieces using various techniques such as Map Reduce and run them in parallel. This way the run time for processing a very large document is decreased significantly
+For a large document size, the run time is enormous but it can be optimized if the program was run in parallel. Since the program is input dependent, we can break up the input into smaller pieces using various techniques such as Map Reduce and run them in parallel. This way the run time for processing a very large document is decreased significantly.

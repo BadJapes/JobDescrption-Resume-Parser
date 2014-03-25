@@ -9,10 +9,12 @@ This program analyzes text from an input job description or an input resume and 
 The user can run the program with or without an output file specified. An input file must be specified.
 
 With an output file:
+
 `javac -g Parser.java`
 `java Parser.java <input-file> <output-file>`
 
 Without an output file:
+
 `javac -g Parser.java`
 `java Parser.java <input-file>`
 
